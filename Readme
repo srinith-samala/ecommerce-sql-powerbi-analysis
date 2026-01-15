@@ -1,123 +1,109 @@
-E-commerce Analytics — SQL + Power BI
+# 📊 E-commerce Analytics — SQL + Power BI
 
-An end-to-end data analytics project that analyzes customer behavior, product performance, and revenue dynamics using SQL for data modeling and Power BI for visualization.
+An end-to-end data analytics project that analyzes **customer behavior, product performance, and revenue dynamics** using **SQL for data modeling** and **Power BI for visualization**.
 
-This project simulates how a real data analyst supports business decisions across marketing, product, and leadership teams.
+This project simulates how a real data analyst supports **marketing, product, and leadership teams** with data-driven insights.
 
-🚀 Business Questions Answered
+---
 
-This project was built to answer real business questions:
+## 🚀 Business Questions Answered
 
-Customer
+This project was built to answer real business problems.
 
-Who are our highest-value customers?
+### 👥 Customer
+- Who are our highest-value customers?
+- How many customers are one-time vs repeat?
+- What is the churn rate?
+- How skewed is revenue toward VIP customers?
 
-How many customers are one-time vs repeat?
+### 💰 Revenue
+- How does revenue change month-to-month?
+- Which countries generate the most revenue?
+- How dependent is the business on new customers?
 
-What is the churn rate?
+### 📦 Product
+- Which products generate the most revenue?
+- Which products have high customer retention?
+- Which products combine **high retention + high revenue** (leverage products)?
 
-How skewed is revenue toward VIP customers?
+---
 
-Revenue
+## 🗂 Dataset
 
-How does revenue change month-to-month?
+**Source:** UCI Online Retail Dataset  
+**URL:** https://archive.ics.uci.edu/ml/datasets/Online+Retail  
 
-Which countries generate most revenue?
+**Columns**
+- InvoiceNo  
+- CustomerID  
+- InvoiceDate  
+- StockCode  
+- Description  
+- Quantity  
+- UnitPrice  
+- Country  
 
-How dependent is the business on new customers?
+---
 
-Product
+## 🛠 Tech Stack
 
-Which products generate the most revenue?
+| Layer | Tool |
+|------|------|
+| Data Cleaning | SQL |
+| Data Modeling | SQL |
+| Business Logic | SQL + DAX |
+| Visualization | Power BI |
+| Reporting | Power BI Dashboards |
+| Version Control | GitHub |
 
-Which products have high customer retention?
+---
 
-Which products combine high retention + high revenue (leverage products)?
+## 📊 Dashboards Built
 
-🗂 Dataset
+The Power BI report contains **three business-focused pages**.
 
-Source: UCI Online Retail Dataset
-URL:
-https://archive.ics.uci.edu/ml/datasets/Online+Retail
+---
 
-Contains:
-
-InvoiceNo
-
-CustomerID
-
-InvoiceDate
-
-StockCode
-
-Description
-
-Quantity
-
-UnitPrice
-
-Country
-
-🛠 Tech Stack
-Layer	Tool
-Data Cleaning	SQL
-Data Modeling	SQL
-Business Logic	SQL + DAX
-Visualization	Power BI
-Reporting	Power BI Dashboards
-Version Control	GitHub
-📊 Dashboards Built
-
-The Power BI report contains three business-focused pages:
-
-1️⃣ Executive Overview
-
+### 1️⃣ Executive Overview  
 High-level view for leadership:
 
-Total Revenue
+- Total Revenue  
+- Total Customers  
+- Churn %  
+- Repeat %  
+- Monthly Revenue Trend  
+- Revenue by Country  
+- One-Time vs Repeat Customers  
 
-Total Customers
+**Key Insight:**  
+Almost **50% of customers churn**, meaning revenue is highly dependent on **new customer acquisition** instead of loyalty.
 
-Churn %
+---
 
-Repeat %
-
-Monthly Revenue Trend
-
-Revenue by Country
-
-One-Time vs Repeat Customers
-
-Key Insight:
-Almost 50% of customers churn, meaning revenue is highly dependent on new customer acquisition rather than loyalty.
-
-2️⃣ Customer Intelligence
-
+### 2️⃣ Customer Intelligence  
 Deep-dive into customer behavior:
 
-Top 10 Customers by Revenue
+- Top 10 Customers by Revenue  
+- Order Frequency Distribution  
+- Customer Retention Rate  
+- Revenue vs Orders (VIP vs casual buyers)
 
-Order Frequency Distribution
+**Key Insight:**  
+Revenue is **heavily skewed toward a small group of high-value customers**, creating a strong opportunity for **VIP retention strategies**.
 
-Customer Retention Rate
+---
 
-Revenue vs Orders scatter (VIP vs casual buyers)
-
-Key Insight:
-Revenue is heavily skewed toward a small group of high-value customers, creating strong opportunity for VIP retention strategies.
-
-3️⃣ Product & Revenue Leverage
-
+### 3️⃣ Product & Revenue Leverage  
 Identifies product-level business leverage:
 
-Top 10 Products by Revenue
+- Top 10 Products by Revenue  
+- Customers vs Product Retention  
+- Product Retention vs Product Revenue  
 
-Customers vs Product Retention
+**Key Insight:**  
+Only a **small number of products** combine **high retention + high revenue**, making them ideal for **promotions, bundles, and inventory prioritization**.
 
-Product Retention vs Product Revenue
-
-Key Insight:
-Only a small number of products combine high retention + high revenue, making them ideal for promotions, bundles, and inventory prioritization.
+---
 
 📁 Repository Structure
 ecommerce-sql-powerbi-analysis/
@@ -135,28 +121,30 @@ ecommerce-sql-powerbi-analysis/
 │
 └── README.md
 
-📷 Dashboard Preview
 
-Screenshots of all three dashboard pages are included in the /screenshots folder.
+---
 
-🧠 What This Project Demonstrates
+## 📷 Dashboard Preview
 
-Writing real business SQL, not toy queries
+Screenshots of all three dashboard pages are included in the `/screenshots` folder.
 
-Customer segmentation (one-time vs repeat vs churn)
+---
 
-Retention and cohort-style logic
+## 🧠 What This Project Demonstrates
 
-Revenue concentration and VIP analysis
+- Writing **real business SQL**, not toy queries  
+- Customer segmentation (one-time vs repeat vs churn)  
+- Retention and loyalty analysis  
+- Revenue concentration & VIP detection  
+- Product-level leverage modeling  
+- Executive-ready Power BI dashboards  
 
-Product-level leverage modeling
+This mirrors how analytics teams operate in real companies.
 
-Executive-ready dashboards
+---
 
-This mirrors how analytics teams work in real companies.
+## 📬 Author
 
-📬 Author
-
-Srinith Samala
-Aspiring Data Analyst
-SQL • Power BI • Business Analytics
+**Srinith Samala**  
+Aspiring Data Analyst  
+SQL • Power BI • Business Analytics  
