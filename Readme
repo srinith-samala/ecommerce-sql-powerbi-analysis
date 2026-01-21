@@ -143,6 +143,59 @@ This mirrors how analytics teams operate in real companies.
 
 ---
 
+## Business Interpretation & Recommendations
+Insight 1 = Engagement problem 
+1)Insight:
+Most low-value customers churn within 7 days because interact with only one product category and show low engagement beyond their first order.
+
+Why this is happening (data-backed reasoning):
+Customer-level analysis shows churned users have significantly fewer product interactions and category diversity compared to retained customers.
+
+Business Decision:
+Improve early-stage product discovery instead of relying on discounts to drive repeat purchases.
+
+Action:
+Introduce personalized product recommendations and category highlights within the first week after purchase, focusing on related or complementary products.
+
+Expected Impact:
+Increasing product discovery could improve repeat purchase rates by 5–8%, leading to higher customer lifetime value without additional acquisition spend
+
+
+Insight 2 — Country imbalance
+
+Insight:
+Revenue is heavily concentrated in one country, while other countries show lower repeat rates and contribution.
+
+Why (data-backed):
+Customer cohorts outside the dominant country have lower order frequency and higher early churn within the first 30 days.
+
+Business Decision:
+Adopt an ROI-driven international strategy instead of equal expansion.
+
+Action:
+Focus marketing and retention efforts on the dominant country and run controlled experiments in one secondary country.
+
+Expected Impact:
+Improved marketing ROI and reduced wasted spend in low-performing regions.
+
+
+🔹 Insight 3 — Monetary problem
+
+Insight:
+Customers with low first-order value are significantly more likely to churn.
+
+Why (data-backed):
+Data shows repeat customers have higher initial order value compared to churned users.
+
+Business Decision:
+Increase first-order value to improve long-term retention.
+
+Action:
+Introduce bundles or minimum-order incentives for first-time buyers.
+
+Expected Impact:
+Higher initial engagement leading to increased repeat purchase probability.
+
 ## 📬 Author
 
 **Srinith Samala**  
